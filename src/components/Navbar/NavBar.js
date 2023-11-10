@@ -36,7 +36,7 @@ const NavBar = () => {
         </div>
         <div className="group flex flex-col items-center">
           <button
-            className="p-2 rounded-lg lg:hidden text-blue-900"
+            className="p-2 rounded-lg lg:hidden text-black"
             onClick={handleClick}
           >
             <svg
