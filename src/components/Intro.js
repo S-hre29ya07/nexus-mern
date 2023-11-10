@@ -77,12 +77,12 @@ const Intro = () => {
               </div>
               <h3
                 className="text-3xl  text-blue-900 
-                            font-bold"
+                            font-bold text-center"
               >
-                Transform <span className="font-black">Strategy</span>
+                Transform <span className="font-black text-center">Strategy</span>
               </h3>
               <div>
-                <p className="my-3 text-xl text-gray-600 font-semibold">
+                <p className="my-3 text-xl text-gray-600 font-semibold text-center">
                   We can fully provide support, knowledge and impart our
                   experience of large-scale transformation projects.
                 </p>
@@ -99,11 +99,11 @@ const Intro = () => {
                   src={img7}
                 />
               </div>
-              <h3 className="text-3xl  text-blue-900 font-bold">
-                Early Life <span className="font-black">Support</span>
+              <h3 className="text-3xl  text-blue-900 font-bold text-center">
+                Early Life <span className="font-black text-center">Support</span>
               </h3>
               <div>
-                <p className="my-3 text-xl text-gray-600 font-semibold">
+                <p className="my-3 text-xl text-gray-600 font-semibold text-center">
                   Post transformation requires a deep understanding of go-lives,
                   stabilization and extended support.
                 </p>
@@ -120,11 +120,11 @@ const Intro = () => {
                   src={img8}
                 />
               </div>
-              <h3 className="text-3xl  text-blue-900 font-bold">
-                Training <span className="font-black">Support</span>
+              <h3 className="text-3xl  text-blue-900 font-bold text-center">
+                Training <span className="font-black text-center">Support</span>
               </h3>
               <div>
-                <p className="my-3 text-xl text-gray-600 font-semibold">
+                <p className="my-3 text-xl text-gray-600 font-semibold text-center">
                   Our core processes involve unparalleled training strategies,
                   implementation and support.
                 </p>
