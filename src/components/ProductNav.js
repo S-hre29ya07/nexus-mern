@@ -5,6 +5,14 @@ import NavBar from "./Navbar/NavBar";
 import Footer from "./Footer";
 
 const ProductNav = () => {
+
+  const handleButtonClick1 = () => {
+    window.location.href = 'http://neo.nexusnova.co.uk/login';
+  };
+  const handleButtonClick2 = () => {
+    window.location.href = 'http://demo.nexuslms.co.uk/';
+  };
+
   return (
     <>
       <div>
@@ -20,7 +28,7 @@ const ProductNav = () => {
 
           <div className="px-12" data-aos="fade-down" data-aos-delay="600">
             <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5">
-              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-400 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
                   <img
                     alt="card img"
@@ -40,10 +48,29 @@ const ProductNav = () => {
                     <li>* Visual Dashboards</li>
                     <li>* Bespoke Design</li>
                   </ul>
+                 
                 </div>
+                <button
+                  onClick={handleButtonClick1}
+                  className="mx-auto bg-transparent border hover:bg-gray-400 hover:border-blue-800 text-black justify-center text-center rounded-lg px-10 py-3 flex items-center group"
+                >
+                  Nexus Neo
+                  <svg
+                    className="w-5 h-5 ml-1 group-hover:translate-x-2 duration-500 ease-in"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
               </div>
 
-              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-400 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
                   <img
                     alt="card img"
@@ -62,7 +89,26 @@ const ProductNav = () => {
                     <li>* Dedicated support</li>
                     <li>* Social Learning</li>
                   </ul>
+                  <button
+                  onClick={handleButtonClick2}
+                  className="mx-auto bg-transparent border hover:bg-gray-400 hover:border-blue-800 text-black justify-center text-center rounded-lg px-10 py-3 flex items-center group"
+                >
+                  Nexus LMS
+                  <svg
+                    className="w-5 h-5 ml-1 group-hover:translate-x-2 duration-500 ease-in"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
                 </div>
+               
               </div>
             </div>
           </div>
