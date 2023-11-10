@@ -29,9 +29,12 @@ const Team = () => {
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out text-center"
                     src={img}
                   />
-                  <h2 className="font-semibold my-4 text-2xl text-center">
+                  <h2 className="font-semibold my-2 text-2xl text-center">
                     Andrew Dunbar
                   </h2>
+                  <h5 className="font-semibold my-2 text-center text-black">
+                    Operational Director
+                  </h5>
                   <p className="text-md font-medium">
                     As a founding Director of Nexus Nova, Andrew has worked on
                     multiple large scale Electronic Patient Record (EPR)
@@ -58,9 +61,12 @@ const Team = () => {
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                     src={img2}
                   />
-                  <h2 className="font-semibold my-4 text-2xl text-center">
+                  <h2 className="font-semibold my-2 text-2xl text-center">
                     Suleman Hussain
                   </h2>
+                  <h5 className="font-semibold my-2 text-center text-black">
+                    Financial Director
+                  </h5>
                   <p className="text-md font-medium">
                     As a founding Director of Nexus Nova, Suleman has a unique
                     skill set with a vast knowledge of the finance industry
@@ -80,9 +86,12 @@ const Team = () => {
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                     src={img3}
                   />
-                  <h2 className="font-semibold my-4 text-2xl text-center ">
+                  <h2 className="font-semibold my-2 text-2xl text-center ">
                     Mahfuz Chowdhury
                   </h2>
+                  <h5 className="font-semibold my-2 text-center text-black">
+                    Technical Director
+                  </h5>
                   <p className="text-md font-medium">
                     As a founding Director of Nexus Nova Mahfuz is highly
                     experienced in both technical and operational management
@@ -107,9 +116,12 @@ const Team = () => {
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                     src={img4}
                   />
-                  <h2 className="font-semibold my-4 text-2xl text-center ">
+                  <h2 className="font-semibold my-2 text-2xl text-center ">
                     Dr. Savio Rodrigues
                   </h2>
+                  <h5 className="font-semibold my-2 text-center text-black">
+                    Clinical Director and CISO
+                  </h5>
                   <p className="text-md font-medium">
                     As a founding Director of Nexus Nova, Savio is a qualified
                     Medical Doctor and has, over the past 5 years, been helping
